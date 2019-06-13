@@ -1,0 +1,308 @@
+        *{
+            margin:0;
+            padding:0;
+        }
+    
+
+        .container{
+           position: relative;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .brand{
+            font-size: 30px;
+            margin-right:50px;
+        }
+        nav{
+            display:flex;
+            justify-content: space-between;
+            padding:20px 50px 20px 50px;
+            align-items: center;
+
+        
+        }
+
+        ul li{
+            list-style-type: none;
+            margin-left:30px;
+            
+        }
+        nav a{
+            color:#CD9191; 
+        }
+
+    
+
+        .nav-menu{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap:wrap; 
+            align-items: center;
+        }
+
+        header{
+            
+            width: 100%;
+            height:500px;
+            background-image: url(../images/back5.jpg);
+            background-repeat: no-repeat; 
+            background-position: top;
+            background-size:cover;
+            animation-name: example;
+            animation-delay: 5s;
+            animation-duration: 60s;
+            animation-direction: alternate;
+           
+                      
+        }
+
+        @keyframes example {
+            0%   {background-image: url(../images/back1.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;}
+            20%  {background-image: url(../images/back2.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;}
+            40%  {background-image: url(../images/back3.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;}
+            60% {background-image: url(../images/back4.jpg);background-repeat: no-repeat; background-position: top;background-size: cover;}
+            80%  {background-image: url(../images/back5.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;}
+            100% {background-image: url(../images/back6.jpg);background-repeat: no-repeat; background-position: center;background-size: cover;}
+        }
+    
+
+        .welcome{
+            position: absolute;
+            top:160px;
+            left:25%;
+            color:white;
+            text-align: center;
+        }
+
+        .ameroon{
+         font-size: 100px;
+         font-family: sans-serif;
+         position: relative;
+         top:-20px;
+         background: rgba(0,0,0,0.5);
+         color:#C7B59E;
+         border-radius: 5px;
+
+        }
+
+        .pro img{
+            background: rgba(0,0,0,0.5);
+            border-radius:5px;
+        
+        }
+
+        .energy{
+           font-size:40px;
+           background: rgba(0,0,0,0.5);
+           width:550px;
+           padding:3px;
+           border-radius: 5px;
+           text-decoration: underline;
+           position: relative;
+           left:160px;
+
+        }
+
+        .bio{
+            position: relative;
+            top:90px;
+            
+        }
+
+        .team{
+            background: rgba(0,0,0,0.9);  
+            border-radius: 20px;
+            padding:7px 30px;
+            font-size:20px;
+        }
+
+      
+        .team2{
+            margin-left:150px;
+        }
+
+
+        .content1{
+            margin-top:50px;
+            background: #55CF25;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding:100px 50px 0 50px;
+            
+        }
+
+        .biomasse{
+            position: relative;
+            top:-100px;
+            border: 1px solid #55CF25;
+            font-size:40px;
+            box-shadow: 1px 2px 10px 10px  white;
+            color:white;
+           
+        }
+
+        .left-box, .right-box{
+            padding:20px;
+            text-align: justify;
+            border: 1px solid gray;
+            line-height: 30px;
+
+        }
+
+        .mid-box{
+            margin: 50px 25px 0 25px;
+            text-align: center;
+            min-width: 30%;
+        }
+
+        .mid-box img{
+            margin-top:50px;
+        }
+
+        .dien{
+            position: relative;
+            top:-80px;
+        }
+
+        .content2{
+            height:800px;
+            background:url(../images/drying.jpeg);
+            background-size:cover;
+            background-position: center;
+            background-repeat:no-repeat;
+            background-attachment: scroll;
+        }
+
+        .info{
+            background:#D2D6E0;
+            padding:15px 15px;
+            width: 50%;
+            position: relative;
+            top:140px;
+            left:50px;
+            line-height: 25px;
+            
+        }
+        .info1{
+         position: absolute;
+          font-size:30px;
+          right:120px;
+        }
+
+        .content3{
+        margin:200px auto 0 auto;
+        max-width: 1200px;
+        
+        }
+        .pods{
+            display:flex;
+            justify-content: space-between;
+            margin:auto;
+            background: #967ADC;
+            color:white;
+            padding: 10px;
+
+           
+        }
+        
+        .pods-in{
+            width: 400px;
+            padding-top:100px;
+            padding-right:50px;
+            margin-left:30px;
+        }
+        .geo{
+            display:flex;
+            justify-content: space-between;
+            margin:auto;
+            background:#8CC152;
+            color:white;
+            padding: 10px;
+        }
+
+        .geo-in{
+            width: 400px;
+            padding-top:100px;
+            padding-left:50px;
+        }
+        .content3-bottom{
+            margin:auto;
+            background:#AAB2BD;
+            color:white;
+            padding: 10px;
+            
+        }
+
+        .content3-bottom p{
+            width: 400px;
+            position: relative;
+            
+        }
+
+        .contact{
+            height:700px;
+            background:#77E4E3;
+            color:white;
+            padding: 100px;
+            
+        }
+
+        .contact-info{
+            width:500px;
+            margin-right:100px;
+            color:black;
+            line-height:25px;
+        }
+
+        .contact-in{
+            display:flex;
+            justify-content: center;
+        }
+
+        #name, #email{
+            width:500px;
+            height:20px;
+            margin-bottom:20px;
+            padding:10px;
+            border-radius:7px;
+        }
+
+        #message{
+            width:505px;
+            padding:10px;
+            border-radius:7px;
+        }
+
+        #submit{
+            padding:5px 10px;
+            font-size:20px;
+            border-radius:7px;
+            border:none;
+        }
+
+        footer{
+            width:100%;
+                  }
+
+        .upper{
+            background: #1A1A1A;
+            display: flex;
+            justify-content: space-between;
+            height:50px 80px;
+            padding:50px;
+            color:white;
+            align-items: center;
+        }
+        .lower{
+            background:#212121;
+            color:white;
+            display: flex;
+            justify-content: space-between;
+            margin:0;
+            padding:20px 50px;
+            height:10px;
+            align-items: center;
+        }
