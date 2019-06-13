@@ -1,13 +1,15 @@
 
 $(document).ready(function(){
   $("#about").hover(function(){
-    $(".sub-about").show();
+    $(".sub-about1").slideToggle();
     
   });
-
-  $(".sub-about").mouseleave(function(){
-    $(this).hide();
-    });
+  
+  $("#camer").hover(function(){
+    $(".sub-about2").slideToggle();
+    
+  });
+  
 
 });
 
